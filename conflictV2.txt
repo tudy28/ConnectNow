@@ -1,0 +1,4 @@
+some content from master branch
+more content added
+totally different content for merging
+resolved the conflict :d

@@ -1,0 +1,4 @@
+some dummy content to mess with
+added more dummy content
+this is some diffrent dummy content for merging later
+Resolved the conflict :)

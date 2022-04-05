@@ -1,0 +1,160 @@
+.table-view {
+    -fx-base: #2F3136;
+    -fx-control-inner-background: #2F3136;
+    -fx-background-color: #2F3136;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-font-size: 18;
+}
+
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+/*.table-view .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color:
+            transparent
+            transparent
+            derive(-fx-base, 80%)
+            transparent;
+    -fx-border-insets: 0 10 1 0;
+}*/
+
+.table-view .column-header .label {
+    -fx-font-size: 20pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+.tab-pane {
+    -fx-tab-max-height: 0 ;
+}
+.tab-pane .tab-header-area {
+    visibility: hidden ;
+}
+
+.button {
+    -fx-background-radius: 0;
+    -fx-background-color: #abacae;
+    -fx-text-fill: #36393F;
+
+}
+
+.button:hover {
+    -fx-background-color: #9f9fa2;
+}
+
+.button:pressed, .button:default:hover:pressed {
+    -fx-background-color: #959598;
+    -fx-text-fill: #1c1b1b;
+}
+
+
+.text-field {
+    -fx-prompt-text-fill: #1f1f1f;
+    -fx-background-color:  #ABACAE;
+}
+
+.text-field .text {
+    -fx-effect: dropshadow( two-pass-box , dimgray , .5, 10 , 1 , 1);
+}
+
+.text-field:empty .text {
+    -fx-effect: null ;
+}
+
+.password-field {
+    -fx-prompt-text-fill: #1f1f1f;
+    -fx-background-color:  #ABACAE;
+}
+
+.password-field .text {
+    -fx-effect: dropshadow( two-pass-box , dimgray , .5, 10 , 1 , 1);
+}
+
+.password-field:empty .text {
+    -fx-effect: null ;
+}
+
+.text-area {
+    text-area-background: #ABACAE ;
+}
+
+.text-area .content {
+    -fx-background-color: text-area-background ;
+}
+
+.text-area .text {
+    -fx-effect: dropshadow( two-pass-box , dimgray , .5, 10 , 1 , 1);
+}
+
+
+
+
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#2E3235 0%, #232529 25%, #232529 75%, #2E3235 100%);
+    -fx-text-fill: white;
+}
+.list-cell {
+    -fx-text-fill: #d7d5d9;
+    -fx-font-size:17.0;
+}
+.list-cell:odd { -fx-background-color: #32353b;}
+.list-cell:even { -fx-background-color: #36393f; }
+.list-cell:filled:hover {
+    -fx-background-color: #2d2f35;
+    -fx-text-fill: #d7d5d9;
+}
+
+
+
+
+
+
+
+.date-picker {
+    graphic_color: white;
+    graphic_focused_color: #111;
+    graphic_disabled_color: #333;
+
+    text_color: white;
+    text_focused_color: #111;
+
+    text_selected_color: white;
+    text_hover_color: white;
+
+    text_days_from_other_months_color: #7c7c7c;
+
+    date_picker_background_color: #111;
+    background_focused_color: #fff;
+    background_hover_color: date_picker_background_color;
+
+    border_color: #616161;
+    border_hover_color: #999999;
+
+    popup_border_color: #111;
+
+    spinner_button_hover_color: #999;
+
+    cell_background_color: #111;
+
+    day_cell_background_color: #1f1f1f;
+    day_cell_border_hover_color: #999;
+
+    day_cell_background_days_from_other_months_color: #2b2b2b;
+
+    today_border_color: derive(accent_color, -60%);
+
+    text_field_disabled_background_color: #111;
+}

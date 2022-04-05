@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="721.0" style="-fx-background-color: #32353B;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="socialnetwork.controller.LoginController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="88.0" fitWidth="496.0" layoutX="7.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonClose" layoutX="670.0" layoutY="-1.0" mnemonicParsing="false" onMouseReleased="#handleClose" prefHeight="25.0" prefWidth="33.0" style="-fx-background-color: #ABACAE;" text="X" textFill="#322e2e" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="-1.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="anchorSignin" layoutX="485.0" layoutY="51.0" prefHeight="308.0" prefWidth="212.0" style="-fx-background-color: #2F3136;" AnchorPane.bottomAnchor="41.0" AnchorPane.rightAnchor="24.0" AnchorPane.topAnchor="51.0">
+         <children>
+            <TextField fx:id="textFieldFirstNameSignIn" layoutX="11.0" layoutY="29.0" prefHeight="18.0" prefWidth="175.0" style="-fx-background-color: #ABACAE;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="11.0" prefHeight="28.0" prefWidth="175.0" text="First name" textFill="#abacae">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textFieldLastNameSignIn" layoutX="11.0" layoutY="84.0" prefHeight="18.0" prefWidth="175.0" style="-fx-background-color: #ABACAE;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="12.0" layoutY="59.0" prefHeight="28.0" prefWidth="175.0" text="Last name" textFill="#abacae">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textFieldEmailSignIn" layoutX="13.0" layoutY="139.0" prefHeight="18.0" prefWidth="175.0" style="-fx-background-color: #ABACAE;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="13.0" layoutY="114.0" prefHeight="28.0" prefWidth="175.0" text="Email" textFill="#abacae">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textFieldPasswordSignIn" layoutX="14.0" layoutY="194.0" prefHeight="18.0" prefWidth="175.0" style="-fx-background-color: #ABACAE;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="15.0" layoutY="169.0" prefHeight="28.0" prefWidth="175.0" text="Password" textFill="#abacae">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="16.0" layoutY="245.0" mnemonicParsing="false" onAction="#handleSignUp" prefHeight="25.0" prefWidth="175.0" stylesheets="@../css/userDesign.css" text="Sign up" AnchorPane.bottomAnchor="38.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="21.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="45.0" layoutY="282.0" mnemonicParsing="false" onAction="#handleBackLogin" prefHeight="25.0" prefWidth="118.0" stylesheets="@../css/userDesign.css" text="Return to Login" AnchorPane.leftAnchor="49.0" AnchorPane.rightAnchor="49.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anchorLogin" layoutX="418.0" layoutY="51.0" prefHeight="308.0" prefWidth="212.0" style="-fx-background-color: #2F3136;" AnchorPane.bottomAnchor="41.0" AnchorPane.rightAnchor="24.0" AnchorPane.topAnchor="51.0">
+         <children>
+            <TextField fx:id="textFieldEmail" layoutX="13.0" layoutY="60.0" prefHeight="18.0" prefWidth="175.0" style="-fx-background-color: #ABACAE;">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="13.0" layoutY="36.0" prefHeight="28.0" prefWidth="175.0" text="Email" textFill="#abacae">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="buttonSignIn" layoutX="14.0" layoutY="172.0" mnemonicParsing="false" onAction="#handleSignIn" prefHeight="25.0" prefWidth="118.0" stylesheets="@../css/userDesign.css" text="Sign in">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="13.0" layoutY="100.0" prefHeight="28.0" prefWidth="175.0" text="Password" textFill="#abacae">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="26.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleCreateAccount" prefHeight="25.0" prefWidth="154.0" stylesheets="@../css/userDesign.css" text="Create one" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="26.0" AnchorPane.rightAnchor="26.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="28.0" layoutY="246.0" text="Don't have an account?" textFill="#abacae" AnchorPane.bottomAnchor="46.0" AnchorPane.leftAnchor="28.0" AnchorPane.rightAnchor="24.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="textFieldPassword" layoutX="14.0" layoutY="125.0" prefHeight="30.0" prefWidth="175.0" style="-fx-background-color: #abacae;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
