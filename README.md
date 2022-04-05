@@ -27,6 +27,7 @@ Dupa ce utilizatorul se autentifica cu succes, acesta poate naviga pe mai multe 
 <img src = "readme-pics/main.PNG">
 </p>
 
+<br/>
 
 - Add Friend - aici utilizatorul poate sa caute alti utilizatori si sa ii adauge ca prieteni.
 
@@ -34,11 +35,15 @@ Dupa ce utilizatorul se autentifica cu succes, acesta poate naviga pe mai multe 
 <img src = "readme-pics/add_friend.PNG">
 </p>
 
+<br/>
+
 - Show Requests - unde utilizatorul poate sa accepte cereri de prietene venite de la alte persoane, sau sa isi vada cererile proprii care inca nu au fost acceptate.
 
 <p align="center">
 <img src = "readme-pics/requets.PNG">
 </p>
+
+<br/>
 
 - Chat Room - unde utilizatorul poate sa isi trimita mesaje cu ceilalti prieteni ai sai.
 
@@ -46,11 +51,15 @@ Dupa ce utilizatorul se autentifica cu succes, acesta poate naviga pe mai multe 
 <img src = "readme-pics/chat.PNG">
 </p>
 
+<br/>
+
 - Reports - unde utilizatorul poate sa isi genereze rapoarte despre activitatea sa pe cont pe care sa si le poata exporta pe calculator sub forma de PDF.
 
 <p align="center">
 <img src = "readme-pics/report.PNG">
 </p>
+
+<br/>
 
 - Events - unde utilizatorul poate sa creeze eventuri la care pot participa si prietenii sai, de asemenea acesta este notificat de eventurile care urmeaza zilnic, de fiecare data cand intra in cont.
 
