@@ -8,11 +8,16 @@ Este o aplicatie dezvoltata in Java, folosind drept baza de date PostgreSQL. Pen
 
 
 ## Flow
-La pornirea aplicatiei, utilizatorul va fi nevoit fie sa se logheze, fie sa isi creeze un cont nou.
-
+La pornirea aplicatiei, utilizatorul va fi nevoit sa se logheze.
 <p align="center">
-<img src = "readme-pics/login.PNG"> <img src = "readme-pics/signup.PNG"
+<img src = "readme-pics/login.PNG">
 </p>
+
+In cazul in care acesta nu are cont, poate sa isi creeze unul.
+<p align="center">
+   <img src = "readme-pics/signup.PNG">
+</p>
+
 
 Dupa ce utilizatorul se autentifica cu succes, acesta poate naviga pe mai multe taburi si anume:
 
@@ -32,7 +37,7 @@ Dupa ce utilizatorul se autentifica cu succes, acesta poate naviga pe mai multe 
 - Show Requests - unde utilizatorul poate sa accepte cereri de prietene venite de la alte persoane, sau sa isi vada cererile proprii care inca nu au fost acceptate.
 
 <p align="center">
-<img src = "readme-pics/requests.PNG">
+<img src = "readme-pics/requets.PNG">
 </p>
 
 - Chat Room - unde utilizatorul poate sa isi trimita mesaje cu ceilalti prieteni ai sai.
@@ -44,7 +49,7 @@ Dupa ce utilizatorul se autentifica cu succes, acesta poate naviga pe mai multe 
 - Reports - unde utilizatorul poate sa isi genereze rapoarte despre activitatea sa pe cont pe care sa si le poata exporta pe calculator sub forma de PDF.
 
 <p align="center">
-<img src = "readme-pics/reports.PNG">
+<img src = "readme-pics/report.PNG">
 </p>
 
 - Events - unde utilizatorul poate sa creeze eventuri la care pot participa si prietenii sai, de asemenea acesta este notificat de eventurile care urmeaza zilnic, de fiecare data cand intra in cont.
