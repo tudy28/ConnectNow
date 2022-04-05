@@ -13,13 +13,17 @@ La pornirea aplicatiei, utilizatorul va fi nevoit sa se logheze.
 <img src = "readme-pics/login.PNG">
 </p>
 
+<br/><br/>
+
 In cazul in care acesta nu are cont, poate sa isi creeze unul.
 <p align="center">
    <img src = "readme-pics/signup.PNG">
 </p>
 
+<br/><br/>
 
 Dupa ce utilizatorul se autentifica cu succes, acesta poate naviga pe mai multe taburi si anume:
+<br/>
 
 - Show Friends - aici utilizatorul poate sa vada eventurile la care participa si urmeaza sa se apropie, sa isi vada lista de prieteni, si sa isi stearga prietenii
 
@@ -27,7 +31,7 @@ Dupa ce utilizatorul se autentifica cu succes, acesta poate naviga pe mai multe 
 <img src = "readme-pics/main.PNG">
 </p>
 
-<br/>
+<br/><br/>
 
 - Add Friend - aici utilizatorul poate sa caute alti utilizatori si sa ii adauge ca prieteni.
 
@@ -35,7 +39,7 @@ Dupa ce utilizatorul se autentifica cu succes, acesta poate naviga pe mai multe 
 <img src = "readme-pics/add_friend.PNG">
 </p>
 
-<br/>
+<br/><br/>
 
 - Show Requests - unde utilizatorul poate sa accepte cereri de prietene venite de la alte persoane, sau sa isi vada cererile proprii care inca nu au fost acceptate.
 
@@ -43,7 +47,7 @@ Dupa ce utilizatorul se autentifica cu succes, acesta poate naviga pe mai multe 
 <img src = "readme-pics/requets.PNG">
 </p>
 
-<br/>
+<br/><br/>
 
 - Chat Room - unde utilizatorul poate sa isi trimita mesaje cu ceilalti prieteni ai sai.
 
@@ -51,7 +55,7 @@ Dupa ce utilizatorul se autentifica cu succes, acesta poate naviga pe mai multe 
 <img src = "readme-pics/chat.PNG">
 </p>
 
-<br/>
+<br/><br/>
 
 - Reports - unde utilizatorul poate sa isi genereze rapoarte despre activitatea sa pe cont pe care sa si le poata exporta pe calculator sub forma de PDF.
 
@@ -59,7 +63,7 @@ Dupa ce utilizatorul se autentifica cu succes, acesta poate naviga pe mai multe 
 <img src = "readme-pics/report.PNG">
 </p>
 
-<br/>
+<br/><br/>
 
 - Events - unde utilizatorul poate sa creeze eventuri la care pot participa si prietenii sai, de asemenea acesta este notificat de eventurile care urmeaza zilnic, de fiecare data cand intra in cont.
 
